@@ -7,7 +7,7 @@ public class LongestUniqueSubstring {
         int result = findLongestUniqueSubstring(str);
         System.out.println(result);
     }
-
+    
     private static int findLongestUniqueSubstring(String s) {
         int start=0;
         int end=0;
