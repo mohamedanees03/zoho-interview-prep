@@ -1,0 +1,36 @@
+# Ignore compiled Java class files
+*.class
+
+# Ignore logs
+*.log
+
+# Ignore build folders
+/bin/
+/build/
+/out/
+/target/
+
+# Ignore IDE-specific files
+
+# IntelliJ
+.idea/
+*.iml
+
+# Eclipse
+.classpath
+.project
+.settings/
+
+# VSCode
+.vscode/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# Backup and temporary files
+*~
+*.swp
+*.bak
