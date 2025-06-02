@@ -3,7 +3,7 @@ import java.util.LinkedHashMap;
 
 public class OddCharCount {
     public static void main(String[] args) {
-        String str = "aabbcdee";
+        String str = "aabbcccdee";
         System.out.println(findOddCharCount(str));
     }
 
