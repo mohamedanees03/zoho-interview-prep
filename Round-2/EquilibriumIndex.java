@@ -13,10 +13,10 @@ public class EquilibriumIndex {
             totalSum += num;
 
         for (int i = 0; i < nums.length; i++) {
-            totalSum -= nums[i]; // 23-3=20, 20-4=16, 16-9=7
+            totalSum -= nums[i]; 
             if (totalSum == leftSum)
-                return i; // 20!=0 false, 16!=3 false, 7==7 true
-            leftSum += nums[i]; // 0+3=3, 3+4=7,
+                return i; 
+            leftSum += nums[i];
         }
 
         return -1;
