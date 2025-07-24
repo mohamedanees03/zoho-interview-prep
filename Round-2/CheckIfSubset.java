@@ -14,9 +14,7 @@ public class CheckIfSubset {
         for (int num : nums1)
             set.add(num);
         for (int num : nums2) {
-            if (!set.contains(num)) {
-                return false;
-            }
+            if (!set.contains(num)) return false;
         }
         return true;
     }
