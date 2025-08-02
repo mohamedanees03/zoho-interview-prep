@@ -2,8 +2,6 @@ class CheckAnagram {
     public static void main(String[] args) {
         String input1 = "aabbcd";
         String input2 = "abcdba";
-        String anees = "Shifa";
-        
         boolean isAnagram = findAnagram(input1, input2);
         System.out.println(isAnagram);  // Expected output: true
     }
