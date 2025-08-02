@@ -12,7 +12,7 @@ class CheckAnagram {
             return false;
         }
 
-        int[] freq = new int[26];  // Only for lowercase letters a-z
+        int[] freq = new int[26];  // Only for lowercase letters a-z is added
 
         for (int i = 0; i < input1.length(); i++) {
             freq[input1.charAt(i) - 'a']++;
